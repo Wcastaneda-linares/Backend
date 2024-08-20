@@ -34,5 +34,6 @@ Este proyecto es una aplicación web creada con React y Bootstrap que permite a 
 3. Inicia el servidor de desarrollo:
 
    npm start
+   
    npm run dev
 
