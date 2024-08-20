@@ -1,0 +1,8 @@
+/* src/styles.css */
+.form-container {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  

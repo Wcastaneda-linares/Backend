@@ -1,0 +1,48 @@
+/* src/Home.css */
+
+.home-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px auto; /* Barra superior y contenido */
+  }
+  
+  .top-bar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-rows: 1fr 2fr; /* Sección superior (1fr) y sección inferior (2fr) */
+    height: calc(100vh - 60px); /* Restamos la altura de la barra superior */
+  }
+  
+  .green-section {
+    background-color: green;
+    margin: 10px;
+    border: 5px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brown-section {
+    background-color: brown;
+    margin: 10px;
+    border: 5px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown-menu {
+    min-width: 200px;
+  }
+  
+  .dropdown-item {
+    color: black;
+  }
+  
