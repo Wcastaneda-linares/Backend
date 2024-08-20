@@ -43,7 +43,7 @@ function ChangePassword() {
           <div className="login-card">
             <div className="text-center mb-4">
               <i className="fa fa-lock fa-5x login-icon"></i>
-              <h2>Verificación de identidad</h2>
+              <h2>Recuparación de Contraseña</h2>
             </div>
 
             {step === 1 && (
